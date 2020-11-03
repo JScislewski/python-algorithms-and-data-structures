@@ -18,9 +18,59 @@ def optimized_bubble_sort(arr):
             break
 
 
-arr = [2, 5, 3, 1, 2, 6]
-second_array = [2, 5, 3, 1, 2, 6]
-bubble_sort(arr)
+first_array = [
+    2,
+    5,
+    3,
+    1,
+    2,
+    6,
+    2,
+    1,
+    4,
+    6,
+    8,
+    1,
+    2,
+    4,
+    6,
+    8,
+    1,
+    2,
+    22,
+    55,
+    11,
+    2,
+    3,
+    44,
+]
+second_array = [
+    2,
+    5,
+    3,
+    1,
+    2,
+    6,
+    2,
+    1,
+    4,
+    6,
+    8,
+    1,
+    2,
+    4,
+    6,
+    8,
+    1,
+    2,
+    22,
+    55,
+    11,
+    2,
+    3,
+    44,
+]
+bubble_sort(first_array)
 optimized_bubble_sort(second_array)
-print(arr)
+print(first_array)
 print(second_array)
